@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Cordillera Blanca Expedition Simulator" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Nevado Pisco - Ruta Normal (Arista Suroeste)</name>
+    <desc>Track oficial y waypoints de la ascensión al Nevado Pisco (5,752 m) desde Cebollapampa / Refugio Perú en la Cordillera Blanca, Perú.</desc>
+    <time>2026-10-21T09:30:00Z</time>
+  </metadata>
+  <trk>
+    <name>Nevado Pisco Summit Track</name>
+    <trkseg>
+      <trkpt lat="-9.0365" lon="-77.6210"><ele>3900</ele></trkpt>
+      <trkpt lat="-9.0310" lon="-77.6240"><ele>4150</ele></trkpt>
+      <trkpt lat="-9.0255" lon="-77.6270"><ele>4420</ele></trkpt>
+      <trkpt lat="-9.0200" lon="-77.6300"><ele>4680</ele></trkpt>
+      <trkpt lat="-9.0185" lon="-77.6318"><ele>4885</ele></trkpt>
+      <trkpt lat="-9.0168" lon="-77.6328"><ele>4815</ele></trkpt>
+      <trkpt lat="-9.0158" lon="-77.6326"><ele>4930</ele></trkpt>
+      <trkpt lat="-9.0150" lon="-77.6322"><ele>5050</ele></trkpt>
+      <trkpt lat="-9.0141" lon="-77.6340"><ele>5300</ele></trkpt>
+      <trkpt lat="-9.0132" lon="-77.6328"><ele>5480</ele></trkpt>
+      <trkpt lat="-9.0125" lon="-77.6318"><ele>5650</ele></trkpt>
+      <trkpt lat="-9.0118" lon="-77.6311"><ele>5752</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

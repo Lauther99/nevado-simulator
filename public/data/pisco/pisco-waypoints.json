@@ -1,0 +1,183 @@
+{
+  "mountain": {
+    "name": "Nevado Pisco",
+    "country": "Perú",
+    "range": "Cordillera Blanca (Parque Nacional Huascarán)",
+    "massif": "Macizo del Huandoy",
+    "route": "Ruta Normal (Arista Suroeste)",
+    "difficulty": "PD (Poco Difícil / Moderada)",
+    "baseElevation": 3900,
+    "summitElevation": 5752,
+    "elevationGain": 1852,
+    "standardSummitTime": "06:00 - 07:30 AM",
+    "departureTime": "12:00 AM"
+  },
+  "coordinatesReference": {
+    "datum": "WGS84",
+    "origin": {
+      "name": "Refugio Perú (Campo Base)",
+      "lat": -9.0200,
+      "lon": -77.6300,
+      "ele": 4680
+    }
+  },
+  "waypoints": [
+    {
+      "id": "cp1_cebollapampa",
+      "name": "Cebollapampa (Trailhead)",
+      "type": "checkpoint",
+      "lat": -9.0365,
+      "lon": -77.6210,
+      "elevation": 3900,
+      "terrain": "valle_tierra",
+      "description": "Pampa de Cebollapampa (09:30 AM). Letrero triple hacia Campo Base Pisco / Refugio Perú / Laguna 69, puente de madera sobre el riachuelo y sendero delimitado con piedras.",
+      "inventoryAction": "Alistamiento inicial con ropa ligera para la caminata diurna bajo el sol andino.",
+      "guideDialogue": "09:30 AM en Cebollapampa. Ahí tienes el letrero hacia Campo Base Pisco y Refugio Perú. Crucemos el puente de madera sobre el riachuelo; al mirar atrás en la subida verás el Huascarán."
+    },
+    {
+      "id": "cp2_refugio_peru",
+      "name": "Campo Base Pisco / Refugio Perú",
+      "type": "checkpoint_major",
+      "lat": -9.0200,
+      "lon": -77.6300,
+      "elevation": 4665,
+      "terrain": "plataforma_rocosa",
+      "description": "Hoyada del Campo Base entre el Huandoy (izquierda) y el Pisco (frente-derecha), con el riachuelo, carpas y el Refugio Perú (4675 m) en la colina de la derecha.",
+      "inventoryAction": "Tiempo libre en campamento: armar carpa (F), interactuar con burritos, llamas y vizcachas (F), subir al Refugio Perú o descansar hasta las 12:00 AM (R).",
+      "guideDialogue": "¡Llegamos a la hoyada del Campo Base! A la izquierda nos abriga la colina frente al Huandoy, al frente asoma el Pisco y arriba en la colina derecha está el Refugio Perú (4675 m). Arma tu carpa (F), saluda a los burritos, llamas y vizcachas, o presiona R para saltar a las 12:00 AM."
+    },
+    {
+      "id": "wp3_loma_rocosa",
+      "name": "Loma Rocosa (Zigzag Inicial)",
+      "type": "trail_point",
+      "lat": -9.0185,
+      "lon": -77.6318,
+      "elevation": 4885,
+      "terrain": "roca_loma_zigzag",
+      "description": "Ascenso nocturno en zigzag por el cerrito rocoso sobre el refugio y caminata por el filo antes del acantilado.",
+      "mechanics": {
+        "polesRecommended": true,
+        "staminaDrainMultiplier": 1.2
+      },
+      "guideDialogue": "12:00 AM. Subimos en zigzag este cerrito de roca y caminamos por el filo hasta el borde del acantilado de las cadenas."
+    },
+    {
+      "id": "cp3_paso_cadenas",
+      "name": "Paso de las Cadenas (Acantilado)",
+      "type": "checkpoint_hazard",
+      "lat": -9.0168,
+      "lon": -77.6328,
+      "elevation": 4815,
+      "terrain": "roca_acantilado_cadenas",
+      "description": "Descenso vertical hacia abajo por un acantilado rocoso asegurado con cadenas metálicas fijas.",
+      "mechanics": {
+        "polesMustBeStowed": true,
+        "handsRequired": true,
+        "cliffDescent": true
+      },
+      "guideDialogue": "¡Borde del acantilado! Guarden los bastones (B). Aquí bajamos en vertical sujetándonos fuerte de la cadena hasta la base de la morrena."
+    },
+    {
+      "id": "wp4_morrena_entrada",
+      "name": "Morrena Rocosa del Pisco",
+      "type": "trail_point",
+      "lat": -9.0158,
+      "lon": -77.6326,
+      "elevation": 4930,
+      "terrain": "morrena_granito_scree",
+      "description": "Al pie de las cadenas inicia el laberinto caótico de bloques de granito y roca suelta que sube hacia el glaciar.",
+      "mechanics": {
+        "polesRecommended": true,
+        "staminaDrainMultiplier": 1.4,
+        "slipRisk": 0.25
+      },
+      "guideDialogue": "Ya bajamos el acantilado. Aquí empieza la morrena rocosa: saquen los bastones (B) y pisen firme entre los bloques de granito."
+    },
+    {
+      "id": "cp4_borde_glaciar",
+      "name": "Borde del Glaciar (Glacier Toe)",
+      "type": "checkpoint_major",
+      "lat": -9.0150,
+      "lon": -77.6322,
+      "elevation": 5050,
+      "terrain": "hielo_nieve_borde",
+      "description": "Transición de roca a hielo permanente. Zona obligatoria de crampones, piolet, cuerda y las 3 capas de abrigo.",
+      "inventoryAction": "Equipar crampones y piolet (G), y llevar puestas las 3 capas (Ligera + Térmica C + Cortavientos V).",
+      "guideDialogue": "Borde del glaciar (5 050 m). Detente y presiona G para ponerte crampones, piolet y cuerda. Aquí conviene llevar las 3 capas puestas (C y V)."
+    },
+    {
+      "id": "wp5_collado_huandoy",
+      "name": "Collado Pisco - Huandoy",
+      "type": "trail_point_hazard",
+      "lat": -9.0141,
+      "lon": -77.6340,
+      "elevation": 5300,
+      "terrain": "glaciar_arista_viento",
+      "description": "Silla glacial entre el Pisco y el Huandoy Este. Viento gélido extremo y ventisca.",
+      "mechanics": {
+        "windChill": true,
+        "hardshellJacketRequired": true,
+        "temperatureDrop": -8
+      },
+      "guideDialogue": "El viento del Huandoy pega durísimo en el collado. Asegúrate de tener las 3 capas activas (Térmica C + Cortavientos V)."
+    },
+    {
+      "id": "wp6_campo_grietas",
+      "name": "Glaciar Superior y Campo de Grietas",
+      "type": "trail_point",
+      "lat": -9.0132,
+      "lon": -77.6328,
+      "elevation": 5480,
+      "terrain": "glaciar_grietas_seracs",
+      "description": "Pendiente de nieve y hielo de 35°-40° surcada por grietas transversales y puentes de nieve.",
+      "mechanics": {
+        "crevasseAvoidance": true,
+        "ropeTension": true
+      },
+      "guideDialogue": "Cuerda tensa y atentos a las grietas transversales. Salta con Espacio justo antes del labio de cada grieta."
+    },
+    {
+      "id": "cp5_el_crux_rimaia",
+      "name": "El Crux: Rimaia y Muro de Hielo",
+      "type": "checkpoint_technical",
+      "lat": -9.0125,
+      "lon": -77.6318,
+      "elevation": 5650,
+      "terrain": "hielo_vertical_rimaia",
+      "description": "Grieta terminal (rimaia) y resalte de hielo compacto de 65°. Paso técnico clave antes de la cumbre.",
+      "mechanics": {
+        "iceAxeTraction": true,
+        "steepClimb": true,
+        "staminaDrainMultiplier": 2.2
+      },
+      "guideDialogue": "¡Último obstáculo técnico! Toma bebida rehidratante (H) o un snack (E), salta la rimaya con Espacio y tracciona con el piolet en el muro."
+    },
+    {
+      "id": "cp6_cumbre_pisco",
+      "name": "Cumbre del Nevado Pisco (Pisco Oeste)",
+      "type": "summit",
+      "lat": -9.0118,
+      "lon": -77.6311,
+      "elevation": 5752,
+      "terrain": "domo_nieve_cumbre",
+      "description": "Gran domo de nieve con vista panorámica 360° al Huascarán, Chopicalqui, Chacraraju y Artesonraju al amanecer.",
+      "mechanics": {
+        "summitReached": true,
+        "goldenHourLighting": true
+      },
+      "guideDialogue": "¡Cumbre del Pisco! 5 752 metros. Miren ese amanecer sobre el Huascarán y el Huandoy. ¡Lo logramos, cordada!"
+    }
+  ],
+  "gearCatalog": {
+    "crampons": { "name": "Crampones de 12 puntas", "weightKg": 1.05, "category": "glacier_safety" },
+    "iceAxe": { "name": "Piolet técnico de travesía", "weightKg": 0.48, "category": "glacier_safety" },
+    "helmet": { "name": "Casco de montañismo", "weightKg": 0.38, "category": "protection" },
+    "harness": { "name": "Arnés de alta montaña + mosquetones", "weightKg": 0.65, "category": "glacier_safety" },
+    "trekkingPoles": { "name": "Par de bastones telescópicos", "weightKg": 0.52, "category": "mobility", "staminaBonus": 0.2 },
+    "hotThermos": { "name": "Termo de 1L con mate de coca caliente", "weightKg": 1.00, "category": "consumable", "servings": 4, "tempBonus": 15 },
+    "rehydratingDrink": { "name": "Bebida rehidratante isotónica (electrolitos)", "weightKg": 0.80, "category": "consumable", "servings": 4, "staminaBonus": 22 },
+    "energySnacks": { "name": "Bolsa de frutos secos y barras energéticas", "weightKg": 0.45, "category": "consumable", "servings": 5, "staminaBonus": 25 },
+    "thermalLayer": { "name": "Chompa térmica / polar de alta montaña (2ª capa)", "weightKg": 0.55, "category": "clothing", "coldDefense": 30 },
+    "hardshellJacket": { "name": "Casaca cortavientos Gore-Tex (3ª capa)", "weightKg": 0.48, "category": "clothing", "windDefense": 40 }
+  }
+}
